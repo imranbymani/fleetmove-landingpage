@@ -10,22 +10,18 @@
       "DOM.Iterable"
     ],
     "skipLibCheck": true,
-    "types": [
-      "node"
-    ],
+    "types": ["node"],
     "moduleResolution": "bundler",
     "isolatedModules": true,
     "moduleDetection": "force",
     "allowJs": true,
-    "jsx": "preserve",
+    "jsx": "preserve",                    // ← Keep this! Do NOT change
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     },
     "allowImportingTsExtensions": true,
     "noEmit": true,
-    "strict": false,
+    "strict": true,                       // ← Changed: enable full strict mode
     "incremental": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
@@ -41,7 +37,5 @@
     "**/*.ts",
     "**/*.tsx"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
