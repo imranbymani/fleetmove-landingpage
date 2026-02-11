@@ -6,7 +6,7 @@ import { Apple, Play, Smartphone, Car, Zap } from 'lucide-react';
 const DownloadApp: React.FC = () => {
   return (
     <section id="download" className="py-24 bg-white overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-10">
         <div className="bg-indigo-600 rounded-[4rem] relative overflow-hidden flex flex-col lg:flex-row items-center">
           {/* Decorative Rings */}
           <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-white/5 rounded-full -mr-48 -mt-48 pointer-events-none" />
@@ -16,24 +16,24 @@ const DownloadApp: React.FC = () => {
             <div className="inline-flex p-3 bg-white/10 rounded-2xl text-white mb-4">
               <Smartphone className="w-8 h-8" />
             </div>
-            <h2 className="text-4xl sm:text-6xl font-black text-white leading-tight">
+            <h2 className="text-4xl sm:text-5xl font-black text-white leading-tight">
               Ready to ride?<br />
               Download the app.
             </h2>
-            <p className="text-indigo-100 text-xl font-medium max-w-lg mx-auto lg:mx-0">
+            <p className="text-indigo-100 text-[18px] font-medium max-w-lg mx-auto lg:mx-0">
               Join millions of users worldwide who trust FleetMove for their daily transport. Fast, safe, and always reliable.
             </p>
 
             <div className="flex flex-wrap justify-center lg:justify-start gap-5">
-              <button className="flex items-center gap-4 bg-white text-gray-900 px-8 py-4 rounded-2xl font-black hover:bg-indigo-50 transition-all shadow-xl">
-                <Apple className="w-7 h-7" />
+              <button className="flex items-center gap-4 bg-white text-gray-900 px-6 py-4 rounded-2xl font-black hover:bg-indigo-50 transition-all shadow-xl">
+                <Apple className="w-6 h-6" />
                 <div className="text-left">
                   <p className="text-[10px] uppercase font-bold opacity-60 leading-none">Download on</p>
                   <p className="text-lg leading-tight">App Store</p>
                 </div>
               </button>
-              <button className="flex items-center gap-4 bg-gray-900 text-white px-8 py-4 rounded-2xl font-black hover:bg-black transition-all shadow-xl">
-                <Play className="w-7 h-7 fill-white" />
+              <button className="flex items-center gap-4 bg-gray-900 text-white px-6 py-4 rounded-2xl font-black hover:bg-black transition-all shadow-xl">
+                <Play className="w-6 h-6 fill-white" />
                 <div className="text-left">
                   <p className="text-[10px] uppercase font-bold opacity-60 leading-none">Get it on</p>
                   <p className="text-lg leading-tight">Google Play</p>
@@ -90,7 +90,7 @@ const DownloadApp: React.FC = () => {
                     </div>
                   </div>
 
-                  <button className="mt-auto w-full py-4 bg-indigo-600 text-white rounded-2xl font-black text-xs shadow-lg shadow-indigo-100">
+                  <button className="mt-auto w-full py-4 bg-indigo-600 text-white rounded-2xl font-black text-[11px] shadow-lg shadow-indigo-100">
                     BOOK RIDE NOW
                   </button>
                </div>
